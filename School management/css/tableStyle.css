@@ -1,0 +1,64 @@
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover{
+	background-color: #a3a3a3;
+}
+
+
+table{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.btn{
+	color: black;
+	padding: 5px 10px;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;	
+	font-weight: 600;
+}
+
+.delete-btn{
+	background-color: red;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+.subject-btn{
+	background-color: #00F700;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+.subject-btn:hover{
+	background-color: #24A703;
+}
+
+.edit-btn{
+	background-color: #009DFF;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+.edit-btn:hover{
+	background-color: #0471B0;
+
+}
+
+.delete-btn:hover{
+	background-color: #CA0000;
+}
+
+
