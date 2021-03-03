@@ -1,0 +1,12 @@
+struktura Student
+jmeno (20 znakù)
+poèet bodù (0-100)
+pokus (1-3)
+1) naètìte z textového souboru záznamy studentù s jejich body a pokusy do dynamického pole (naèíst z hlavièky poèet záznamù, alokovat pole a naèíst jednotlivé položky)
+2) naleznìte studenty a vypište studenty, kteøí zápoèet udìlali, tzn. mají více než 60 bodù
+3) naleznìte studenty, kteøí zápoèet neudìlali a nemají už šanci ho udìlat, tzn. mají ménì než 60 bodù a vyèerpali všechny pokusy (maximální poèet pokusù je 3)
+4) spoèítejte prùmìrný poèet bodù a vypište do souboru prumer.txt ve formì "prumerny pocet bodu: X"
+5) všechno správnì dealokujte
+využijte funkce:
+int splnilZapocet(student, hranice)
+float prumernyPocetBodu(studenti, delka pole)
